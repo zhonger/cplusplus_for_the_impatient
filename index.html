@@ -1,42 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <title>读书笔记</title>
-  <meta name="description" content="《写给大忙人看的C++》读书笔记">
-  <meta name="keywords" content="cplusplus,read notebook">
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <link rel="shortcut icon" href="/src/tree2.ico">
-  <link rel="stylesheet" href="/src/vue.css">
-  <link rel="stylesheet" href="/src/custom.css">
+    <meta charset="UTF-8">
+    <title>读书笔记</title>
+    <meta name="description" content="《写给大忙人看的C++》读书笔记">
+    <meta name="keywords" content="cplusplus,read notebook">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="shortcut icon" href="/src/tree2.ico">
+    <link rel="stylesheet" href="/src/vue.css">
+    <link rel="stylesheet" href="/src/custom.css">
 </head>
+
 <body>
-  <div id="app"></div>
+    <div id="app"></div>
 </body>
 <script>
-  window.$docsify = {
-    name: '《写给大忙人看的C++》------读书笔记',
-    repo: 'https://github.com/zhonger/cplusplus_for_the_impatient',
-    loadSidebar: true,
-    subMaxLevel: 2,
-    themeColor: '#3F51B5',
-    search: 'auto',
-    search : [
-      '/',            
-      '/guide',
-    ],
+    window.$docsify = {
+        name: '《写给大忙人看的C++》------读书笔记',
+        repo: 'https://github.com/zhonger/cplusplus_for_the_impatient',
+        homepage: 'home.md',
+        loadSidebar: true,
+        subMaxLevel: 2,
+        themeColor: '#3F51B5',
+        search: 'auto',
+        search: [
+            '/',
+            '/guide',
+        ],
 
-    // 完整配置参数
-    search: {
-      maxAge: 86400000, // 过期时间，单位毫秒，默认一天
-      paths: [], // or 'auto'
-      placeholder: '请输入关键词搜索',
-      noData: '未找到匹配的结果!',
-      // 搜索标题的最大程级, 1 - 6
-      depth: 2
-    },
-    
-  }
+        // 完整配置参数
+        search: {
+            maxAge: 86400000, // 过期时间，单位毫秒，默认一天
+            paths: [], // or 'auto'
+            placeholder: '请输入关键词搜索',
+            noData: '未找到匹配的结果!',
+            // 搜索标题的最大程级, 1 - 6
+            depth: 2
+        },
+
+    }
 </script>
 <script src="/src/docsify.min.js"></script>
 <script src="/src/search.js"></script>
@@ -45,4 +48,5 @@
 <script src="/src/prism-c.js"></script>
 <script src="/src/prism-cpp.js"></script>
 <script src="/src/external-script.js"></script>
+
 </html>
